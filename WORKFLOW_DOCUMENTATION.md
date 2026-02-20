@@ -1,6 +1,6 @@
-# Chess Academy AI Workflow Documentation
+# Ebook Generator Workflow Documentation
 
-This document provides a technical overview of the eBook generation pipeline, detailing its architecture, tools, libraries, and how it compares to standard automation frameworks.
+This document provides a technical overview of the Ebook Generator Workflow, detailing its architecture, tools, libraries, and how it compares to standard automation frameworks.
 
 ## 1. Core Architecture: Hierarchical Multi-Agent Pipeline
 

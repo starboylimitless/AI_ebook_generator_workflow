@@ -1,10 +1,10 @@
-# Chess Academy AI Workflow
+# Ebook Generator Workflow
 
 Automated multi-agent workflow to convert a raw chess ebook into a professionally designed ebook, using a reference PDF as a style guide.
 
 ## Project Structure
 
-- `chess_academy_ai_workflow/`
+- `ebook_generator_workflow/`
   - `input_docs/` — input PDFs (`ebook_ads.pdf`, `next_move_reference.pdf`)
   - `agents/` — multi-agent implementations
   - `workflows/` — master agent and workflow controller
@@ -28,7 +28,7 @@ Set your OpenAI API key:
 $env:OPENAI_API_KEY="YOUR_KEY_HERE"
 ```
 
-Place the following files in `chess_academy_ai_workflow/input_docs/`:
+Place the following files in `ebook_generator_workflow/input_docs/`:
 
 - `ebook_ads.pdf` — raw content source
 - `next_move_reference.pdf` — style and layout reference
@@ -39,5 +39,5 @@ Place the following files in `chess_academy_ai_workflow/input_docs/`:
 python main.py
 ```
 
-The final formatted ebook and intermediate artifacts will be written to `chess_academy_ai_workflow/output/`.
+The final formatted ebook and intermediate artifacts will be written to `ebook_generator_workflow/output/`.
 

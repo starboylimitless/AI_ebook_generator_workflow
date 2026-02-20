@@ -2,8 +2,8 @@ import argparse
 import os
 from pathlib import Path
 
-from chess_academy_ai_workflow.workflows.workflow_controller import WorkflowController
-from chess_academy_ai_workflow.utils.pdf_utils import ensure_directories
+from ebook_generator_workflow.workflows.workflow_controller import WorkflowController
+from ebook_generator_workflow.utils.pdf_utils import ensure_directories
 
 
 def main() -> None:
