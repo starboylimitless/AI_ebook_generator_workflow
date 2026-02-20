@@ -18,7 +18,7 @@ Every agent inherits from a `BaseAgent` class, providing a standardized way to h
 - **DocumentStructureAgent**: Extracts semantic hierarchy (chapters/sections) from raw text.
 - **VisualLayoutAgent**: Analyzes reference PDFs to extract design tokens (margins, spacings, font sizes).
 - **ImageSemanticAgent**: Identifies "high value" spots for visual assets.
-- **OpenAIImageAgent**: Communicates with DALL-E 3 to generate optimized visuals.
+- **FalImageAgent**: Communicates with **Fal.ai (Flux)** to generate optimized visuals.
 - **AlignmentAgent**: Maps planned content into the final visual slots.
 - **FinalOptimizationAgent**: Uses **ReportLab** to programmatically generate the final 32MB PDF.
 
@@ -26,7 +26,8 @@ Every agent inherits from a `BaseAgent` class, providing a standardized way to h
 
 | Library | Purpose |
 | :--- | :--- |
-| **OpenAI (GPT-4o & DALL-E 3)** | Intellectual heavy-lifting, text normalization, and image generation. |
+| **OpenAI (GPT-4o)** | Intellectual heavy-lifting and text normalization. |
+| **Fal.ai (Fast SDXL)** | High-speed, cost-effective image generation (Legacy favorite). |
 | **ReportLab** | Professional-grade PDF generation (the "Engine" that builds the actual book). |
 | **pypdf / pdfminer.six** | High-fidelity text and layout extraction from source PDFs. |
 | **Pillow (PIL)** | Image processing and asset optimization. |
